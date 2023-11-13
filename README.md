@@ -1,28 +1,19 @@
-# TRC25 Specifications
+# VRC25 Specifications
 
-## Setup .env
-```env
-ETHERSCAN_API_KEY=
-INFURA_API_KEY=
-PRIVATE_KEY=
+## Installation
+
+```bash
+npm install vrc25
 ```
 
-1. Build
-```sh
-npx hardhat compile
-```
+## Usage
 
-2. Test
-```sh
-npx hardhat test --parallel
-```
+```js
+pragma solidity ^0.8.9;
 
-3. Deploy
-```sh
-npx hardhat deploy
-```
+import {VRC25} from "vrc25/contracts/VRC25.sol";
 
-4. Verify
-```sh
-npx hardhat verify $ADDRESS
+contract MyToken is VRC25 {
+  constructor() VRC25("MyToken", "TKN", 9) {}
+}
 ```
