@@ -1,6 +1,6 @@
 {
   "name": "vrc25",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Specifications for VRC25 token and gas sponsored program",
   "author": "Coin98 Labs",
   "contributors": [
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tomochain/trc25.git"
+    "url": "git+https://github.com/tuphan-dn/trc25.git"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "~1.0.5",
