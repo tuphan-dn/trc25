@@ -1,11 +1,18 @@
 {
-  "name": "@tomochain/trc25",
+  "name": "vrc25",
   "version": "1.0.0",
   "description": "Specifications for TRC25 token and gas sponsored program",
   "author": "Coin98 Labs",
+  "contributors": [
+    {
+      "name": "Tu Phan",
+      "email": "tuphan@descartes.network"
+    }
+  ],
   "license": "Apache-2.0",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "files": [
+    "/contracts/**/*.sol"
+  ],
   "scripts": {
     "build": "hardhat compile",
     "clean": "hardhat clean",
